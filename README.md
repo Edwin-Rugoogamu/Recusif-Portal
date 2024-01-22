@@ -16,7 +16,7 @@ Once the user has logged in , they are able to see the active users and also sen
 
  Instructions on building and running container
 
-with the Help of docker, 
+# with the Help of docker, 
 
 Step 1: Install Docker
 Before you start, make sure you have Docker installed on your machine. You can download Docker from the official website.
