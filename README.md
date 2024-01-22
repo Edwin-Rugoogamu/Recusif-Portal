@@ -62,3 +62,8 @@ I decided to design having a chat side bar so that users who are online can be s
 I decided To have a notification icon so that notications can be seen incase the user comes back and finds a message.
 I decided to have a chat footer so that the component can store the input form for sending the message.
 I decided to have a chatpage so that the uses can recieve and send messages can can be seen clearly on the page
+
+
+# API documentation
+ http://localhost:3000/api-docs/
+ 
