@@ -14,9 +14,9 @@ This is The frontend of the chat application . It is written in React.js , Using
 In the chat application, one has to first register and login with the credentials they have used to register to be authenticated. 
 Once the user has logged in , they are able to see the active users and also send messages to them. If the other user is not on the application, they find a notifiaction on the bell icon indicating that they have a message. The application uses socket.io to able the realtime communication.The forntend is connected to the backend whose repository is also provided.
 
- Instructions on building and running container
+# Instructions on building and running container
 
-# with the Help of docker, 
+with the Help of docker, 
 
 Step 1: Install Docker
 Before you start, make sure you have Docker installed on your machine. You can download Docker from the official website.
