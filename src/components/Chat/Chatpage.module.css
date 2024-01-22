@@ -1,0 +1,17 @@
+Add your module-specific styles here
+#chat-messages {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  #container{
+    padding-top: 500px;
+  }
+  

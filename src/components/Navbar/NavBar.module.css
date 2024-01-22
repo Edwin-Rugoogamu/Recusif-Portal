@@ -1,0 +1,285 @@
+#Navbar {
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+
+  margin-bottom: 5%;
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+}
+
+#Link:hover {
+  color: cadetblue;
+  transition: 0.5ms;
+}
+#Link {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+#link3{
+  color: black;
+  padding-left: 9%;
+}
+#Dropdown-Menu {
+  background-color: black;
+}
+#toggle {
+  border: none;
+  background-color: black;
+}
+#NavToggle {
+  border: none;
+  color: white;
+  background-color: white;
+}
+
+#NavToggle:focus {
+  box-shadow: none;
+}
+
+#NavToggle:hover {
+  color: white;
+}
+#offcanvas {
+  background-color: black;
+  color: white;
+}
+#offcanvas .btn-close {
+  background-color: white;
+  color: white;
+}
+.btn_close .btn-close {
+  color: white;
+  background-color: white;
+}
+.e {
+  color: rgb(29, 211, 211);
+  font-size: larger;
+}
+
+#search {
+  margin-left: 0px;
+  width: 650px;
+}
+
+.cart2 {
+  font-size: 30px;
+  padding-right: 20%;
+}
+.accountIcon {
+  font-size: 30px;
+  /* width: 200%; */
+  padding-right: 10%;
+}
+
+#account {
+  background: none;
+  border: none;
+  font-size: 20px;
+  /* padding-bottom: 20px; */
+}
+
+#accountNav {
+  /* padding-bottom: 20px; */
+}
+
+.logout {
+  color: rgb(25, 117, 117);
+}
+
+/* 0 */
+
+@media (0px <= width < 768px) {
+  #Navbar {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  #offcanvas {
+    text-align: center;
+    width: 70%;
+  }
+  #Link2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* width: 100%; */
+  }
+  #Link2:hover {
+    background-color: rgba(83, 74, 74, 0.349);
+    transition: 0.5s;
+    /* cursor: pointer; */
+    padding-left: 10px;
+  }
+  #Link {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 6%;
+
+    font-size: larger;
+  }
+  #search {
+    display: none;
+  }
+
+  .cart {
+    margin-left: auto;
+    margin-right: 4%;
+  }
+  .accountIcon {
+    display: none;
+  }
+
+  #AccountLink {
+    margin-bottom: 15%;
+    margin-top: 5%;
+  }
+  #Dropdown_menu {
+    text-decoration: none;
+    text-align: center;
+  }
+  #Dropdown_Item {
+    margin-top: 2%;
+    text-decoration: none;
+    font-size: large;
+  }
+}
+@media (768px <= width < 992px) {
+  #search {
+    margin-left: 0px;
+    width: 220px;
+  }
+  #Link {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    margin-right: 5%;
+  }
+  .cart {
+    display: none;
+  }
+}
+@media (992px <= width < 1280px) {
+  #search {
+    margin-left: 0px;
+    width: 350px;
+  }
+  #Link {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    margin-right: 20px;
+  }
+  .cart {
+    display: none;
+  }
+}
+@media (min-width: 1280px) {
+  #Link {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 1%;
+  }
+  .cart {
+    display: none;
+  }
+  #Navbar {
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+
+  margin-bottom: 5%;
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+}
+
+#Link:hover {
+  color: cadetblue;
+  transition: 0.5ms;
+}
+
+#Dropdown-Menu {
+  background-color: black;
+}
+#toggle {
+  border: none;
+  background-color: black;
+}
+#NavToggle {
+  border: none;
+  color: white;
+  background-color: white;
+}
+
+#NavToggle:focus {
+  box-shadow: none;
+}
+
+#NavToggle:hover {
+  color: white;
+}
+#offcanvas {
+  background-color: black;
+  color: white;
+}
+#offcanvas .btn-close {
+  background-color: white;
+  color: white;
+}
+.btn_close .btn-close {
+  color: white;
+  background-color: white;
+}
+.e {
+  color: rgb(29, 211, 211);
+  font-size: larger;
+}
+
+#search {
+  margin-left: 0px;
+  width: 650px;
+}
+
+.cart2 {
+  font-size: 30px;
+  padding-right: 20%;
+}
+.accountIcon {
+  font-size: 30px;
+  /* width: 200%; */
+  padding-right: 10%;
+}
+
+#account {
+  background: none;
+  border: none;
+  font-size: 20px;
+  /* padding-bottom: 20px; */
+}
+
+#accountNav {
+  /* padding-bottom: 20px; */
+}
+
+.logout {
+  color: rgb(25, 117, 117);
+}
+}
