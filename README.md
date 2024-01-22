@@ -14,7 +14,7 @@ This is The frontend of the chat application . It is written in React.js , Using
 In the chat application, one has to first register and login with the credentials they have used to register to be authenticated. 
 Once the user has logged in , they are able to see the active users and also send messages to them. If the other user is not on the application, they find a notifiaction on the bell icon indicating that they have a message. The application uses socket.io to able the realtime communication.The forntend is connected to the backend whose repository is also provided.
 
-# Instructions on building and running container
+ Instructions on building and running container
 
 with the Help of docker, 
 
@@ -24,25 +24,25 @@ Before you start, make sure you have Docker installed on your machine. You can d
 Step 2: Create a Dockerfile
 A Dockerfile is a script that contains instructions to build a Docker image. Create a file named Dockerfile (no file extension) in your project directory.For example
 
-# Use an official Node.js runtime as a base image
+ Use an official Node.js runtime as a base image
 FROM node:14
 
-# Set the working directory in the container
+ Set the working directory in the container
 WORKDIR /usr/src/app
 
-# Copy package.json and package-lock.json to the working directory
+#Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
-# Install app dependencies
+ Install app dependencies
 RUN npm install
 
-# Copy the application code to the container
+ Copy the application code to the container
 COPY . .
 
-# Expose a port that the app will run on
+ Expose a port that the app will run on
 EXPOSE 8080
 
-# Define the command to run your application
+ Define the command to run your application
 CMD ["node", "app.js"]
 
 
@@ -54,3 +54,11 @@ Step 4: Run the Docker Container
 docker run -p 8080:8080 my-container-app
 .
 You can the later host the docker application after CI/CD  eith using github actions or Genkins
+
+
+# Design Decisions
+
+I decided to design having a chat side bar so that users who are online can be seen by the user when they log in
+I decided To have a notification icon so that notications can be seen incase the user comes back and finds a message.
+I decided to have a chat footer so that the component can store the input form for sending the message.
+I decided to have a chatpage so that the uses can recieve and send messages can can be seen clearly on the page
